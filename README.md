@@ -11,3 +11,5 @@ https://www.umpd.umd.edu/stats/incident_logs.cfm?year=2023&month=1
   - Added feature to scan multiple months and years (currently hardcoded to 9/2017 --> 9/2022)
 Can change with `year_start` and `month_start` feature
 
+👋 Questions or bugs reach out to me:
+skanipakala@gmail.com
