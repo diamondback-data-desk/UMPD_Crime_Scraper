@@ -1,0 +1,1631 @@
+
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/inner.dwt" codeOutsideHTMLIsLocked="false" -->
+  <head>
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Daily Crime and Incident Logs - University of Maryland Police</title>
+    <!-- InstanceEndEditable -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge; IE=9; IE=8; IE=7" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <meta name="theme-color" content="#9A0000" />
+    <meta name="mobile-web-app-title" content="UMPD" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="UMPD" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-barstyle" content="black-translucent" />
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" type="text/css" href="/resources/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/resources/css/inner.css" />
+    <link rel="stylesheet" type="text/css" href="/resources/css/modalimage.css" />
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+      <link rel="stylesheet" type="text/css" href="/resources/css/ie7.css" />
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 1015px)" href="/resources/css/mobile.css" />
+    <link rel="shortcut icon" sizes="192x192" href="/resources/images/favicons/192x192.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/resources/images/favicons/144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/resources/images/favicons/114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/resources/images/favicons/72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/resources/images/favicons/57x57.png" />
+    <link rel="manifest" href="manifest.json" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/scripts/main.js"></script>
+    <!--<script src="//s3.amazonaws.com/umdheader.umd.edu/app/js/main.min.js"></script>-->
+	<script src="/resources/js/global.js"></script>
+    <!-- InstanceBeginEditable name="head" -->
+    <meta name="keywords" content="Incident Report, Incidents, Reports, Crime, Crime Reports, Stats, Statistics, Numbers, Logs" />
+    <meta name="description" content="Basic information on all calls for service the University of Maryland Police responded to" />
+	<style>
+	  
+		#inner-content table { font-size: 13px; max-width: 100%; }
+		#inner-content th, #inner-content td { padding: 3px !important; }
+		@media (max-width: 1015px) {
+		  #inner-content table { word-break: break-word; }
+		  #inner-content th, #inner-content td { padding: 2px !important; }
+		  .min-width0 { min-width: 60px; }
+		  .min-width1, .min-width2 { min-width: 55px; }
+		}
+		@media (min-width: 1015px) {
+		  .min-width0 { min-width: 95px; }
+		  .min-width1 { min-width: 110px; }
+		  .min-width2 { min-width: 90px; }
+		}
+	  
+	</style>
+	<!-- InstanceEndEditable -->
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <div id="contact-numbers-left">UMD Police Emergency 911 or 301.405.3333</div>
+        <div id="contact-numbers-right">Mobile Phone #3333 | Non-Emergency 301.405.3555</div>
+        <div id="header-photo">
+          <a id="mobile-menu" href="#">&nbsp;</a>
+          <img src="/resources/images/patch.png" alt="UMPD Patch" />
+          <h1><a href="/" aria-label="University of Maryland Police Department">University of Maryland Police Department</a></h1>
+        </div>
+        <nav role="navigation" id="nav">
+          <ul>
+            <li><a href="/about" title="About UMPD" aria-label="About UMPD">About UMPD</a></li>
+            <li><a href="/stats" title="Crime Stats" aria-label="Crime Stats">Crime Stats</a></li>
+            <li><a href="/services" title="Services and Resources" aria-label="Services and Resources">Services and Resources</a></li>
+            <li><a href="/employment" title="Careers" aria-label="Careers">Careers</a></li>
+            <li><a href="/contact/location.cfm" title="Location" aria-label="Location">Location</a></li>
+            <li><a href="/contact" title="Contact UMPD" aria-label="Contact UMPD">Contact UMPD</a></li>
+          </ul>
+          <form method="post" action="/search/"><input type="text" placeholder="Search..." name="search" /><input type="submit" value="Search" /></form>
+        </nav>
+      </header>
+      <div id="main-content">
+        <!-- InstanceBeginEditable name="side-nav" -->
+        <aside class="top">
+          <section id="side-nav">
+            <h2><a href="index.cfm" title="Crime Statistics">Crime Statistics</a></h2>
+            <ul>
+              <!--li><a href="https://alert.umd.edu/" title="UMD Alerts">UMD Alerts</a></li-->
+              <li><a href="ucr/" title="Crime Reports">Crime Reports</a></li>
+              <li><a href="clery.cfm" title="Clery Act Info & Reports">Clery Act Info & Reports</a></li>
+              <li><a href="incident_logs.cfm" title="Daily Crime and Incident Logs">Daily Crime and Incident Logs</a></li>
+              <li><a href="csa_logs.cfm" title="Campus Security Authority Incident Logs">Campus Security Authority Incident Logs</a></li>
+              <li><a href="arrest_report.cfm" title="Arrest Report Ledgers">Arrest Report Ledgers</a></li>
+              <li><a href="/about/organization.cfm#about-ia" title="Internal Affairs Annual Reports">Internal Affairs Annual Reports</a></li>
+              <li><a href="crimereports.cfm" title="Local Area Crime Mapping">Local Area Crime Mapping</a></li>
+              <!--li><a href="safety_notices.cfm" title="UMD Safety Notices">UMD Safety Notices</a></li>
+              <li><a href="https://umpdnews.umd.edu" title="UMPD Community News">UMPD Community News</a></li-->
+            </ul>
+          </section>
+        </aside>
+        <!-- InstanceEndEditable -->
+        
+        <div id="inner-content">
+          <!-- InstanceBeginEditable name="body" -->
+          
+            <h2>January 2024 Incident Log</h2>
+            <table border="0" width="100%" cellspacing="0">
+              <tr>
+                <th style="border-bottom: 1px solid #000" class="min-width0">UMPD CASE<br />NUMBER</th>
+                <th style="border-bottom: 1px solid #000" class="min-width1" align="left">OCCURRED DATE TIME<br/>LOCATION</th>
+                <th style="border-bottom: 1px solid #000" class="min-width2" align="left">REPORT DATE TIME</th>
+                <th style="border-bottom: 1px solid #000" align="left">TYPE</th>
+                <th style="border-bottom: 1px solid #000" align="left">DISPOSITION</th>
+              </tr>
+              
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00000014</td>
+                      <td>01/01/24 00:18</td>
+                      <td>01/01/24 00:18</td>
+                      <td>Recovered Stolen Property</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        8700 block of  Baltimore  Ave 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00000081</td>
+                      <td>01/01/24 02:43</td>
+                      <td>01/01/24 02:43</td>
+                      <td>Injured/Sick Person</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                         Knox  Rd 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00000092</td>
+                      <td>01/01/24 02:45</td>
+                      <td>01/01/24 02:56</td>
+                      <td>Injured/Sick Person</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                         Knox  Rd 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00000096</td>
+                      <td>01/01/24 03:09</td>
+                      <td>01/01/24 03:09</td>
+                      <td>DWI/DUI</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                         University  Blvd 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00000463</td>
+                      <td>12/20/23 14:00</td>
+                      <td>01/01/24 16:15</td>
+                      <td>Assist Other Agency / Burglary</td>
+                      <td>Active/Pending</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        4800 block of  College  Ave 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00001645</td>
+                      <td>12/01/23 07:00</td>
+                      <td>01/03/24 11:58</td>
+                      <td>Vandalism</td>
+                      <td>Investigation Pending</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        Lot 19, Lot U2, MLG, Mowatt Garage, Mowatt Lane Parking Garage, PG5 at 7591  Mowatt  Ln 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00002359</td>
+                      <td>01/04/24 13:15</td>
+                      <td>01/04/24 13:19</td>
+                      <td>Burglary</td>
+                      <td>Investigation Pending</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        8200 block of  Paint Branch  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00003057</td>
+                      <td>02/13/24 17:15</td>
+                      <td>01/05/24 14:45</td>
+                      <td>Emergency Petition</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        4200 block of  Farm  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00003113</td>
+                      <td>01/05/24 17:30</td>
+                      <td>01/05/24 17:34</td>
+                      <td>Vandalism</td>
+                      <td>Investigation Pending</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Lot 19, Lot U2, MLG, Mowatt Garage, Mowatt Lane Parking Garage, PG5 at 7591  Mowatt  Ln 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00003446</td>
+                      <td>01/06/24 01:01</td>
+                      <td>01/06/24 01:01</td>
+                      <td>DWI/DUI</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                         Baltimore  Ave 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00004159</td>
+                      <td>01/07/24 01:23</td>
+                      <td>01/07/24 01:23</td>
+                      <td>DWI/DUI</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                         Greenbelt  Rd 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00004180</td>
+                      <td>01/07/24 02:19</td>
+                      <td>01/07/24 02:19</td>
+                      <td>DWI/DUI</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                         University  Blvd 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00004463</td>
+                      <td>01/07/24 12:13</td>
+                      <td>01/07/24 12:13</td>
+                      <td>Recovered Stolen Motor Vehicle</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        3800 block of  Campus  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00005720</td>
+                      <td>01/09/24 00:09</td>
+                      <td>01/09/24 00:09</td>
+                      <td>Injured/Sick Person</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        Pyon Chen, Pyon-Chen Hall at 8097  La Plata  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00005947</td>
+                      <td>01/08/24 11:20</td>
+                      <td>01/09/24 09:31</td>
+                      <td>Suspicious Activity</td>
+                      <td>Active/Pending</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        4200 block of  Stadium  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00006072</td>
+                      <td>01/09/24 13:24</td>
+                      <td>01/09/24 13:24</td>
+                      <td>Injured/Sick Person</td>
+                      <td>Active/Pending</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        39, Van Munching, Van Munching Hall at 7699  Mowatt  Ln 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00006752</td>
+                      <td>11/01/23 00:00</td>
+                      <td>01/10/24 12:41</td>
+                      <td>Vandalism</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Brendan Iribe Center, Iribe Center at 8125  Paint Branch  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00006875</td>
+                      <td>01/08/24 18:00</td>
+                      <td>01/10/24 17:01</td>
+                      <td>Other Incident</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        4100 block of  Campus  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00006888</td>
+                      <td>08/20/23 08:00</td>
+                      <td>01/10/24 17:29</td>
+                      <td>Vandalism</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        84, Kirwan Hall, Mathematics Building, William E. Kirwan Hall at 4176  Campus  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00006935</td>
+                      <td>01/10/24 19:41</td>
+                      <td>01/10/24 19:41</td>
+                      <td>Injured/Sick Person</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        7500 block of  Baltimore  Ave 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00007054</td>
+                      <td>01/10/24 23:01</td>
+                      <td>01/10/24 23:11</td>
+                      <td>Other Incident</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                         Baltimore  Ave 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00007368</td>
+                      <td>01/10/24 12:30</td>
+                      <td>01/11/24 09:37</td>
+                      <td>Theft</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        Club House, Golf Course Club House at 3800  Golf Course  Rd 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00007675</td>
+                      <td>01/11/24 20:08</td>
+                      <td>01/11/24 20:30</td>
+                      <td>Fire</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        8500 block of  Paint Branch  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00007707</td>
+                      <td>01/11/24 19:00</td>
+                      <td>01/11/24 22:00</td>
+                      <td>Theft</td>
+                      <td>Investigation Pending</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        8500 block of  Paint Branch  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00008210</td>
+                      <td>01/12/24 12:00</td>
+                      <td>01/12/24 12:01</td>
+                      <td>Injured/Sick Person</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        HHP, PERH, Public Health, School of Public Health Building, SPH at 4200  Valley  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00008592</td>
+                      <td>01/13/24 02:06</td>
+                      <td>01/13/24 02:06</td>
+                      <td>DWI/DUI</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                         Baltimore  Ave 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00008618</td>
+                      <td>01/13/24 03:25</td>
+                      <td>01/13/24 03:25</td>
+                      <td>Recovered Stolen Property</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        7-11 Berwyn, 7-Eleven Berwyn at 8600  Baltimore  Ave 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00008889</td>
+                      <td>11/03/23 17:00</td>
+                      <td>01/13/24 13:04</td>
+                      <td>Sex Offense</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        Easton, Easton Hall at 3917  Denton Service  Ln 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00008898</td>
+                      <td>01/13/24 02:30</td>
+                      <td>01/13/24 14:34</td>
+                      <td>Other Incident (Title IX Related)</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        6800 block of  Preinkert  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00008918</td>
+                      <td>11/29/23 10:00</td>
+                      <td>01/13/24 17:17</td>
+                      <td>Assist Other Agency / Sex Offense</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        8200 block of  Baltimore  Ave 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00009206</td>
+                      <td>01/14/24 00:10</td>
+                      <td>01/14/24 00:10</td>
+                      <td>Warrant/Summons Service</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                         Baltimore  Ave 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00009248</td>
+                      <td>01/14/24 01:44</td>
+                      <td>01/14/24 01:44</td>
+                      <td>DWI/DUI</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                         Campus  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00010244</td>
+                      <td>12/08/23 08:57</td>
+                      <td>01/15/24 08:08</td>
+                      <td>Vandalism</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        DOTS, Lot B, Lot RR, PG2, RDG, Regents Drive Parking Garage, WAM Lab at 8056  Regents  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00010468</td>
+                      <td>12/08/23 00:00</td>
+                      <td>01/15/24 11:10</td>
+                      <td>Vandalism</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        PG3, SDG, Stadium Drive Parking Garage at 4025  Stadium  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00010608</td>
+                      <td>11/08/23 00:00</td>
+                      <td>01/15/24 13:59</td>
+                      <td>Vandalism</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Lot 6, PG4, Terrapin Trail Parking Garage, TTG at 4155  Terrapin  Trl 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00010824</td>
+                      <td>11/27/23 13:23</td>
+                      <td>01/15/24 22:00</td>
+                      <td>Lost Property</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        4300 block of  Rowalt  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00011146</td>
+                      <td>01/16/24 08:00</td>
+                      <td>01/16/24 08:41</td>
+                      <td>Vandalism</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Lot 19, Lot U2, MLG, Mowatt Garage, Mowatt Lane Parking Garage, PG5 at 7591  Mowatt  Ln 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00011165</td>
+                      <td>01/16/24 09:23</td>
+                      <td>01/16/24 09:27</td>
+                      <td>Vandalism</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        Lot HH, PG1, ULG, Union Lane Garage, Union Lane Parking Garage at 4170  Union  Ln 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00011580</td>
+                      <td>01/14/24 00:24</td>
+                      <td>01/16/24 22:15</td>
+                      <td>Assist Other Agency / Other</td>
+                      <td>Active/Pending</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Terrapin Row #1, Terrapin Row 1, TR1 at 4207  Knox  Rd 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00011602</td>
+                      <td>01/16/24 23:32</td>
+                      <td>01/16/24 23:32</td>
+                      <td>Vandalism</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        PG3, SDG, Stadium Drive Parking Garage at 4025  Stadium  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00012050</td>
+                      <td>01/17/24 15:03</td>
+                      <td>01/17/24 15:02</td>
+                      <td>Damage to State Property</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        4200 block of  Landscape  Ln 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00012202</td>
+                      <td>01/17/24 11:30</td>
+                      <td>01/17/24 17:47</td>
+                      <td>Theft</td>
+                      <td>Investigation Pending</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        7600 block of  Mowatt  Ln 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00012391</td>
+                      <td>01/18/24 00:00</td>
+                      <td>01/18/24 00:00</td>
+                      <td>Vandalism</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Lot 4h 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00012743</td>
+                      <td>01/18/24 09:30</td>
+                      <td>01/18/24 09:35</td>
+                      <td>Injured/Sick Person</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        3400 block of  Tulane  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00012752</td>
+                      <td>01/18/24 09:54</td>
+                      <td>01/18/24 09:54</td>
+                      <td>Injured/Sick Person</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Health Center at 3983  Campus  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00013139</td>
+                      <td>01/19/24 00:36</td>
+                      <td>01/19/24 00:36</td>
+                      <td>DWI/DUI</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        84, Kirwan Hall, Mathematics Building, William E. Kirwan Hall at 4176  Campus  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00014126</td>
+                      <td>01/20/24 00:21</td>
+                      <td>01/20/24 00:21</td>
+                      <td>Fire</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Graduate Hills #290 at 3425  Tulane  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00014907</td>
+                      <td>01/21/24 02:35</td>
+                      <td>01/21/24 02:35</td>
+                      <td>DWI/DUI</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        Lot 19, Lot U2, MLG, Mowatt Garage, Mowatt Lane Parking Garage, PG5 at 7591  Mowatt  Ln 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00015660</td>
+                      <td>01/22/24 05:07</td>
+                      <td>01/22/24 05:07</td>
+                      <td>Other Incident</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        38, Lefrak, Lefrak Hall at 7251  Preinkert  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00015924</td>
+                      <td>01/19/24 17:00</td>
+                      <td>01/22/24 12:43</td>
+                      <td>Extortion</td>
+                      <td>Active/Pending</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        5800 block of  University Research  Ct 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00015934</td>
+                      <td>01/22/24 13:47</td>
+                      <td>01/22/24 13:47</td>
+                      <td>Injured/Sick Person</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                         Campus  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00015935</td>
+                      <td>01/13/24 12:00</td>
+                      <td>01/22/24 13:52</td>
+                      <td>Fraud</td>
+                      <td>Investigation Pending</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        52, Clarence M. Mitchell, Jr. Building, Mitchell Building, North Administration at 7999  Regents  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00016010</td>
+                      <td>01/22/24 17:04</td>
+                      <td>01/22/24 17:04</td>
+                      <td>Other Incident</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        26, South Campus Dining Hall at 7093  Preinkert  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00016091</td>
+                      <td>01/22/24 16:00</td>
+                      <td>01/22/24 19:29</td>
+                      <td>Theft</td>
+                      <td>Investigation Pending</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        8100 block of  Regents  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00016375</td>
+                      <td>01/16/24 12:00</td>
+                      <td>01/23/24 04:16</td>
+                      <td>Vandalism</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Lot 6, PG4, Terrapin Trail Parking Garage, TTG at 4155  Terrapin  Trl 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00016500</td>
+                      <td>01/22/24 13:05</td>
+                      <td>01/23/24 09:06</td>
+                      <td>Other Incident</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                         Stadium  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00016523</td>
+                      <td>09/01/23 08:00</td>
+                      <td>01/23/24 10:41</td>
+                      <td>Other Incident</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        3900 block of  Denton Service  Ln 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00016637</td>
+                      <td>01/22/24 00:00</td>
+                      <td>01/23/24 16:27</td>
+                      <td>Damage to State Property</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        Cole, Cole Field House, Cole Student Activities Building, Driscoll Center, Jones-Hill House at 4090  Union  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00016682</td>
+                      <td>12/23/23 08:00</td>
+                      <td>01/23/24 17:30</td>
+                      <td>Assist Other Agency / Domestic</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        4200 block of  Knox  Rd 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00016806</td>
+                      <td>01/20/24 12:00</td>
+                      <td>01/23/24 22:01</td>
+                      <td>Dept Property Damage/Loss</td>
+                      <td>Active/Pending</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                         Paint Branch  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00016866</td>
+                      <td>01/23/24 23:38</td>
+                      <td>01/23/24 23:38</td>
+                      <td>Other Incident</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Hornbake, Hornbake Library at 4130  Campus  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00016887</td>
+                      <td>01/24/24 00:36</td>
+                      <td>01/24/24 00:36</td>
+                      <td>Suspicious Person/Auto</td>
+                      <td>Active/Pending</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        4100 block of  Campus  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00016888</td>
+                      <td>01/24/24 00:40</td>
+                      <td>01/24/24 00:40</td>
+                      <td>DWI/DUI</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                         Baltimore  Ave 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00016977</td>
+                      <td>01/23/24 12:40</td>
+                      <td>01/24/24 07:17</td>
+                      <td>Damage to State Property</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        Bioscience, Bioscience Research Building at 4066  Campus  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00017109</td>
+                      <td>01/24/24 09:20</td>
+                      <td>01/24/24 13:00</td>
+                      <td>Theft</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        68, Eppley, Eppley Recreation Center, ERC at 4128  Valley  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00017143</td>
+                      <td>01/24/24 14:33</td>
+                      <td>01/24/24 15:07</td>
+                      <td>Indecent Exposure (Title IX Related)</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        62, St Marys Hall, St. Mary's, St. Mary's Hall at 3949  Campus  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00017193</td>
+                      <td>01/24/24 17:33</td>
+                      <td>01/24/24 17:33</td>
+                      <td>Vandalism</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Bioscience, Bioscience Research Building at 4066  Campus  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00017287</td>
+                      <td>01/24/24 14:25</td>
+                      <td>01/24/24 21:15</td>
+                      <td>Indecent Exposure</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        Elkton, Elkton Hall at 3981  Denton Service  Ln 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00017389</td>
+                      <td>01/25/24 01:16</td>
+                      <td>01/25/24 01:16</td>
+                      <td>Injured/Sick Person</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        La Plata Hall at 8160  La Plata  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00017448</td>
+                      <td>01/25/24 03:19</td>
+                      <td>01/25/24 03:19</td>
+                      <td>DWI/DUI</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        3500 block of  University  Blvd 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00017553</td>
+                      <td>01/25/24 08:32</td>
+                      <td>01/25/24 08:32</td>
+                      <td>Injured/Sick Person</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Commons 3, SCC 3, South Campus Commons 3 at 4318  Knox  Rd 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00017579</td>
+                      <td>01/25/24 10:02</td>
+                      <td>01/25/24 10:04</td>
+                      <td>Injured/Sick Person</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        4100 block of  Campus  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00017611</td>
+                      <td>01/24/24 22:00</td>
+                      <td>01/25/24 10:43</td>
+                      <td>Theft</td>
+                      <td>Investigation Pending</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Hagerstown Hall at 8075  Hagerstown  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00017696</td>
+                      <td>01/25/24 14:53</td>
+                      <td>01/25/24 14:53</td>
+                      <td>Injured/Sick Person</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        3400 block of  Tulane  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00017734</td>
+                      <td>01/25/24 12:00</td>
+                      <td>01/25/24 17:24</td>
+                      <td>Other Service Call</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        4200 block of  Fieldhouse  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00017771</td>
+                      <td>01/25/24 15:30</td>
+                      <td>01/25/24 18:36</td>
+                      <td>Theft</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        8, Annapolis, Annapolis Hall at 7626  Regents  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00017791</td>
+                      <td>01/25/24 15:50</td>
+                      <td>01/25/24 18:43</td>
+                      <td>Extortion</td>
+                      <td>Investigation Pending</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        3400 block of  Tulane  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00017940</td>
+                      <td>01/26/24 00:13</td>
+                      <td>01/26/24 00:13</td>
+                      <td>Injured/Sick Person</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                         Baltimore  Ave 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00018000</td>
+                      <td>01/26/24 01:11</td>
+                      <td>01/26/24 01:11</td>
+                      <td>Disorderly Conduct</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Delta Phi Epsilon, Delta Phi Epsilon Sorority at 4514  Knox  Rd 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00018135</td>
+                      <td>01/25/24 17:00</td>
+                      <td>01/26/24 04:38</td>
+                      <td>Vandalism</td>
+                      <td>Investigation Pending</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        Lot 11b 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00018149</td>
+                      <td>01/26/24 05:05</td>
+                      <td>01/26/24 05:05</td>
+                      <td>Emergency Petition</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Drazek Circle, UMGC at 346  Ehrensberger  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00018215</td>
+                      <td>01/25/24 15:00</td>
+                      <td>01/26/24 08:24</td>
+                      <td>Theft from Auto</td>
+                      <td>Investigation Pending</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        Lot 11b 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00018338</td>
+                      <td>01/25/24 16:30</td>
+                      <td>01/26/24 10:10</td>
+                      <td>Theft</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        25, Charles, Charles Hall at 4405  Lehigh  Rd 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00018631</td>
+                      <td>01/26/24 11:59</td>
+                      <td>01/26/24 17:09</td>
+                      <td>Fraud</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        8100 block of  Paint Branch  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00018738</td>
+                      <td>01/26/24 20:40</td>
+                      <td>01/26/24 20:40</td>
+                      <td>CDS Violation</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Elkton, Elkton Hall at 3981  Denton Service  Ln 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00018754</td>
+                      <td>01/26/24 21:09</td>
+                      <td>01/26/24 21:09</td>
+                      <td>CDS Violation</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        69, Wicomico, Wicomico Hall at 7218  Preinkert  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00018809</td>
+                      <td>01/26/24 22:00</td>
+                      <td>01/26/24 23:17</td>
+                      <td>Theft</td>
+                      <td>Investigation Pending</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Hagerstown Hall at 8075  Hagerstown  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00018862</td>
+                      <td>01/27/24 00:05</td>
+                      <td>01/27/24 00:05</td>
+                      <td>Injured/Sick Person</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        Adidas Stripe 3 at 7415  Baltimore  Ave 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00018873</td>
+                      <td>01/27/24 00:35</td>
+                      <td>01/27/24 00:35</td>
+                      <td>Emergency Petition</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Capital One Field, Football Stadium, SECU Stadium 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00018896</td>
+                      <td>01/27/24 01:41</td>
+                      <td>01/27/24 01:41</td>
+                      <td>Disorderly Conduct</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        4600 block of  Rossborough  Ln 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00019303</td>
+                      <td>01/25/24 15:45</td>
+                      <td>01/27/24 17:00</td>
+                      <td>Theft</td>
+                      <td>Unfounded</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Edward St. John Learning and Teaching Center, ESJ at 4131  Campus  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00019613</td>
+                      <td>01/28/24 02:48</td>
+                      <td>01/28/24 03:40</td>
+                      <td>Assist Other Agency / Robbery</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        8200 block of  Baltimore  Ave 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00019899</td>
+                      <td>12/17/23 00:00</td>
+                      <td>01/28/24 14:00</td>
+                      <td>Theft</td>
+                      <td>Investigation Pending</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Easton, Easton Hall at 3917  Denton Service  Ln 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00019954</td>
+                      <td>01/28/24 16:22</td>
+                      <td>01/28/24 16:22</td>
+                      <td>Injured/Sick Person</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        436 at 4136  Stadium  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00020070</td>
+                      <td>01/28/24 22:06</td>
+                      <td>01/28/24 22:06</td>
+                      <td>Other Incident</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                         Baltimore  Ave 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00020134</td>
+                      <td>01/28/24 19:30</td>
+                      <td>01/29/24 00:14</td>
+                      <td>Injured/Sick Person</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        3900 block of  Denton Service  Ln 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00020144</td>
+                      <td>01/29/24 00:58</td>
+                      <td>01/29/24 00:58</td>
+                      <td>Injured/Sick Person</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        7400 block of  Princeton  Ave 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00020405</td>
+                      <td>01/29/24 09:10</td>
+                      <td>01/29/24 09:13</td>
+                      <td>Injured/Sick Person</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        4200 block of  Lehigh  Rd 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00020526</td>
+                      <td>01/19/24 10:26</td>
+                      <td>01/29/24 11:28</td>
+                      <td>Assist Other Agency / Other</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        8100 block of  Baltimore  Ave 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00020545</td>
+                      <td>01/29/24 12:10</td>
+                      <td>01/29/24 12:14</td>
+                      <td>Injured/Sick Person</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        Health Center at 3983  Campus  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00020584</td>
+                      <td>01/27/24 11:50</td>
+                      <td>01/29/24 13:23</td>
+                      <td>Accident</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                         Rossborough  Ln 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00020653</td>
+                      <td>01/25/24 12:00</td>
+                      <td>01/29/24 15:58</td>
+                      <td>Stolen Motor Vehicle</td>
+                      <td>Investigation Pending</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        Lot 11b 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00020706</td>
+                      <td>01/29/24 08:30</td>
+                      <td>01/29/24 17:39</td>
+                      <td>Theft</td>
+                      <td>Arrest</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        39, Van Munching, Van Munching Hall at 7699  Mowatt  Ln 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00020846</td>
+                      <td>01/29/24 19:00</td>
+                      <td>01/30/24 00:05</td>
+                      <td>Dept Property Damage/Loss</td>
+                      <td>Active/Pending</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        4300 block of  Hartwick  Rd 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00021292</td>
+                      <td>01/30/24 18:30</td>
+                      <td>01/30/24 19:18</td>
+                      <td>Assist Other Agency / Other</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        8400 block of  Baltimore  Ave 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00021819</td>
+                      <td>01/31/24 12:00</td>
+                      <td>01/31/24 13:09</td>
+                      <td>Injured/Sick Person</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                        Health Center at 3983  Campus  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00021864</td>
+                      <td>01/31/24 12:00</td>
+                      <td>01/31/24 16:04</td>
+                      <td>Assist Other Agency / Other</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        Cornerstone, Cornerstone Grill at 7325  Baltimore  Ave 
+                      </td>
+                    </tr>
+                 
+                    <tr class="alt">
+                      <td rowspan='2' valign='middle'>2024-00022030</td>
+                      <td>01/31/24 20:30</td>
+                      <td>01/31/24 21:03</td>
+                      <td>Accident</td>
+                      <td>Active/Pending</td>
+                    </tr>
+                    <tr class="alt">
+                      <td colspan='5'>
+                         Regents  Dr 
+                      </td>
+                    </tr>
+                 
+                    <tr >
+                      <td rowspan='2' valign='middle'>2024-00022033</td>
+                      <td>01/17/24 12:00</td>
+                      <td>01/31/24 21:22</td>
+                      <td>Dept Property Damage/Loss</td>
+                      <td>CBE</td>
+                    </tr>
+                    <tr >
+                      <td colspan='5'>
+                        6800 block of  Preinkert  Dr 
+                      </td>
+                    </tr>
+                 
+            </table>
+            <p style="font-size: 11px">* Title IX Incident Non Criminal incidents are those incidents in which there was a violation of the university's sexual misconduct policy but do not meet the standard of criminal misconduct.</p>
+          
+          <!-- InstanceEndEditable -->
+        </div>
+        
+        <aside>
+          <section id="mobile-contact">
+            <b>Emergency:</b> <a href="tel:911" aria-label="911">911</a> or <a href="tel:3014053333" aria-label="(301) 405-3333">(301) 405-3333</a><br>
+            <b>Mobile Phone Emergency:</b> <a href="tel:#3333" aria-label="#3333">#3333</a><br>
+            <b>Non-Emergency:</b> <a href="tel:3014053555" aria-label="(301) 405-3555">(301) 405-3555</a><br>
+            <b>Address:</b> <a href="https://www.google.com/maps/place/7569+Baltimore+Ave,+College+Park,+MD+20740/@38.982455,-76.937265,17z" aria-label="Pocomoke Building (007), 7569 Baltimore Ave, College Park, MD 20742">Pocomoke Building (007), 7569 Baltimore Ave, College Park, MD 20742</a>
+          </section>
+          
+          <section id="umd-alerts" >
+            <h2><a href="https://alert.umd.edu/">UMD Alerts</a></h2>
+            
+              <ul>
+                
+                      <li><a href="https://alert.umd.edu/alerts/umd-alert-test-22" target="_blank" aria-label="UMD Alert Test [11/06/24 at 08:42 PM]">UMD Alert Test <span class="date">[11/06/24 at 08:42 PM]</span></a></li>
+                    
+                      <li><a href="https://alert.umd.edu/alerts/umd-advisory-e-scooter-thefts" target="_blank" aria-label="UMD Advisory: E-Scooter Thefts [10/20/24 at 01:45 AM]">UMD Advisory: E-Scooter Thefts <span class="date">[10/20/24 at 01:45 AM]</span></a></li>
+                    
+                      <li><a href="https://alert.umd.edu/alerts/umd-community-alert-last-update-11" target="_blank" aria-label="UMD COMMUNITY ALERT: Last Update [10/19/24 at 04:44 AM]">UMD COMMUNITY ALERT: Last Update <span class="date">[10/19/24 at 04:44 AM]</span></a></li>
+                    
+              </ul>  
+            
+            <div class="more"><a href="https://alert.umd.edu/">About UMD Alerts</a> | <a href="https://alert.umd.edu/alerts/">See all UMD Alerts</a></div>
+          </section>
+          <section id="popular-links">
+            <h2>Popular Links</h2>
+            <ul>
+              <li><a href="/stats" title="Crime Statistics" aria-label="Crime Statistics">Crime Statistics</a></li>
+              <li><a href="/services/lostandfound.cfm" title="Lost &amp; Found" aria-label="Lost &amp; Found">Lost &amp; Found</a></li>
+              <li><a href="/services/bss_work_order.cfm" title="BSS Work Order" aria-label="BSS Work Order">BSS Work Order</a></li>
+              <li><a href="/services/fingerprinting.cfm" title="Fingerprinting Services" aria-label="Fingerprinting Services">Fingerprinting Services</a></li>
+              <li><a href="/contact/phonenumbers.cfm" title="Phone Numbers" aria-label="Phone Numbers">Phone Numbers</a></li>
+              <li><a href="/stats/clery_form/" title="CSA Reporting Form" aria-label="CSA Reporting Form">CSA Reporting Form</a></li>
+              <li><a href="/services/ride_along.cfm" title="Ride Along" aria-label="Ride Along">Ride Along</a></li>
+              <li><a href="/contact/submit_tip.cfm" title="Submit a Tip" aria-label="Submit a Tip">Submit a Tip</a></li>
+              <li><a href="/contact/index.cfm?form=praise" title="Praise an Employee" aria-label="Praise an Employee">Praise an Employee</a></li>
+              <li><a href="/contact/complaint.cfm" title="File a Complaint" aria-label="File a Complaint">File a Complaint</a></li>
+            </ul>
+          </section>
+          <section id="umpd-news">
+            <h2><a href="https://umpdnews.umd.edu" title="UMPD News">UMPD News</a></h2>
+            
+              <ul>
+                
+                    <li><a href="https://umpdnews.umd.edu/trunk-or-treat" target="_blank">Trunk or Treat</a></li>
+                  
+                    <li><a href="https://umpdnews.umd.edu/save-date-dea-national-prescription-drug-take-back-day" target="_blank">Save the Date for DEA National Prescription Drug Take Back Day</a></li>
+                  
+                    <li><a href="https://umpdnews.umd.edu/umd-community-text-alert-10182024" target="_blank">UMD Community Text Alert 10/18/2024</a></li>
+                  
+                    <li><a href="https://umpdnews.umd.edu/umd-advisory-10192024" target="_blank">UMD Advisory 10/19/2024</a></li>
+                  
+                    <li><a href="https://umpdnews.umd.edu/information-e-scooter-cases" target="_blank">Information on E-Scooter Cases</a></li>
+                  
+                    <li><a href="https://umpdnews.umd.edu/accepting-applications-spring-2025-citizens-police-academy" target="_blank">Accepting Applications for Spring 2025 Citizens Police Academy </a></li>
+                  
+                    <li><a href="https://umpdnews.umd.edu/umd-annual-security-report-asr-and-annual-fire-safety-report-afsr-are-available" target="_blank">The UMD Annual Security Report (ASR) and Annual Fire Safety Report (AFSR) are Available</a></li>
+                  
+              </ul>  
+            
+          </section>
+				
+          <section id="social">
+            <h2>Social Media</h2>
+            <p style="text-align: center">
+              <a href="https://www.facebook.com/UMDPoliceDept" target="_blank" aria-label="UMPD Facebook"><img src="/resources/images/facebook.png" onmouseover="this.src='/resources/images/facebook_hover.png'" onmouseout="this.src='/resources/images/facebook.png'" /></a>
+              <a href="https://twitter.com/UMPD" target="_blank" aria-label="UMPD Twitter"><img src="/resources/images/twitter.png" onmouseover="this.src='/resources/images/twitter_hover.png'" onmouseout="this.src='/resources/images/twitter.png'" /></a>
+              <a href="https://umpdnews.umd.edu/" target="_blank" aria-label="UMPD News"><img src="/resources/images/blog.png" onmouseover="this.src='/resources/images/blog_hover.png'" onmouseout="this.src='/resources/images/blog.png'" /></a>
+            </p>
+          </section>
+        </aside>
+      </div>
+      <footer>
+        <a href="https://adminvp.umd.edu/" target="_blank" aria-label="Division of Administration">Division of Administration</a> | <a href="https://alert.umd.edu" target="_blank" aria-label="UMD Alert System">UMD Alert System</a> | <a href="https://adminvp.umd.edu/ethics-integrity-and-compliance-reporting" target="_blank" aria-label="Ethics, Integrity and Compliance Reporting">Ethics, Integrity and Compliance Reporting</a> | <a href="https://umd.edu/web-accessibility" target="_blank" aria-label="Web Accessibility">Web Accessibility</a>
+        <br><br>
+        The University of Maryland Police Department is accredited by the Commission on Accreditation for Law Enforcement Agencies (CALEA) <a href="https://www.calea.org/" target="_blank"><img src="/resources/images/calea.jpg" /></a>
+      </footer>
+    </div>
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-37710790-2', 'auto', {'allowLinker': true});
+	  ga('require', 'linker');
+	  ga('linker:autoLink', ['umd.edu', 'universityofmarylandpolice.com', 'umdps.net']);
+	  ga('send', 'pageview');
+	</script>
+  </body>
+<!-- InstanceEnd --></html>
